@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1026614278486",
+    "project_id": "koora-1856a",
+    "storage_bucket": "koora-1856a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026614278486:android:6dae341b143d9ee163fef7",
+        "android_client_info": {
+          "package_name": "com.KooraZone.networkUpp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026614278486-2j36higplgbpcut3nlolutk7fs2da3f7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.KooraZone.networkUpp",
+            "certificate_hash": "19c3a3a03ce43e24e045fe4ffd0966e1ef395050"
+          }
+        },
+        {
+          "client_id": "1026614278486-95bpoeot3n6o699he3rqv7un4oa4dngt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKeD8R7Akba3nfcUDYZWN6QUHgu9GDxew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026614278486-95bpoeot3n6o699he3rqv7un4oa4dngt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

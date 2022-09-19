@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="414" height="896" viewBox="0 0 414 896">
+  <defs>
+    <clipPath id="clip-Sign_up_7">
+      <rect width="414" height="896"/>
+    </clipPath>
+  </defs>
+  <g id="Sign_up_7" data-name="Sign up – 7" clip-path="url(#clip-Sign_up_7)">
+    <rect width="414" height="896" fill="#20272d"/>
+    <path id="Path_44019" data-name="Path 44019" d="M220.5,0C342.279,0,441,103.422,441,231S342.279,462,220.5,462,0,358.578,0,231,98.721,0,220.5,0Z" transform="translate(-10 -194)" fill="#2693bd"/>
+    <g id="Iconly_Broken_Arrow---Right-2" data-name="Iconly/Broken/Arrow---Right-2" transform="translate(337.5 102)">
+      <g id="Arrow---Right-2" transform="translate(7.5 4)">
+        <path id="Path_44049" data-name="Path 44049" d="M.244,15.758a.814.814,0,0,1-.073-1.08l.075-.084L7.572,7.417a.846.846,0,0,1,1.183,0A.812.812,0,0,1,8.829,8.5l-.075.084L1.427,15.759A.847.847,0,0,1,.244,15.758Zm0-14.351a.814.814,0,0,1,0-1.164.847.847,0,0,1,1.1-.077l.086.073L6.293,5.005a.812.812,0,0,1,0,1.163.847.847,0,0,1-1.1.077l-.086-.073Z" fill="#3193bc"/>
+      </g>
+    </g>
+  </g>
+</svg>

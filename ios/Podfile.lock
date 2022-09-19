@@ -1,0 +1,225 @@
+PODS:
+  - CryptoSwift (0.15.0)
+  - Firebase/CoreOnly (9.5.0):
+    - FirebaseCore (= 9.5.0)
+  - Firebase/Messaging (9.5.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 9.5.0)
+  - firebase_core (1.22.0):
+    - Firebase/CoreOnly (= 9.5.0)
+    - Flutter
+  - firebase_messaging (13.0.1):
+    - Firebase/Messaging (= 9.5.0)
+    - firebase_core
+    - Flutter
+  - FirebaseCore (9.5.0):
+    - FirebaseCoreDiagnostics (~> 9.0)
+    - FirebaseCoreInternal (~> 9.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+  - FirebaseCoreDiagnostics (9.5.0):
+    - GoogleDataTransport (< 10.0.0, >= 9.1.4)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseCoreInternal (9.5.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+  - FirebaseInstallations (9.5.0):
+    - FirebaseCore (~> 9.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/UserDefaults (~> 7.7)
+    - PromisesObjC (~> 2.1)
+  - FirebaseMessaging (9.5.0):
+    - FirebaseCore (~> 9.0)
+    - FirebaseInstallations (~> 9.0)
+    - GoogleDataTransport (< 10.0.0, >= 9.1.4)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Reachability (~> 7.7)
+    - GoogleUtilities/UserDefaults (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - Flutter (1.0.0)
+  - flutter_local_notifications (0.0.1):
+    - Flutter
+  - flutter_native_splash (0.0.1):
+    - Flutter
+  - fluttertoast (0.0.2):
+    - Flutter
+    - Toast
+  - Google-Mobile-Ads-SDK (8.13.0):
+    - GoogleAppMeasurement (< 9.0, >= 7.0)
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - google_mobile_ads (0.0.1):
+    - Flutter
+    - Google-Mobile-Ads-SDK (= 8.13.0)
+  - GoogleAppMeasurement (8.15.0):
+    - GoogleAppMeasurement/AdIdSupport (= 8.15.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (~> 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (8.15.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 8.15.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (~> 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (8.15.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (~> 2.30908.0)
+  - GoogleDataTransport (9.2.0):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUserMessagingPlatform (2.0.0)
+  - GoogleUtilities/AppDelegateSwizzler (7.7.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.7.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.7.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.7.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.7.0)"
+  - GoogleUtilities/Reachability (7.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.7.0):
+    - GoogleUtilities/Logger
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - PromisesObjC (2.1.1)
+  - pusher_websocket_flutter (0.1.1):
+    - Flutter
+    - PusherSwift (= 7.0.0)
+  - PusherSwift (7.0.0):
+    - CryptoSwift (~> 0.9)
+    - ReachabilitySwift (= 4.3.0)
+    - Starscream (~> 3.0.5)
+  - ReachabilitySwift (4.3.0)
+  - shared_preferences_ios (0.0.1):
+    - Flutter
+  - Starscream (3.0.6)
+  - Toast (4.0.0)
+  - url_launcher_ios (0.0.1):
+    - Flutter
+  - video_player_avfoundation (0.0.1):
+    - Flutter
+  - wakelock (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
+  - firebase_messaging (from `.symlinks/plugins/firebase_messaging/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_local_notifications (from `.symlinks/plugins/flutter_local_notifications/ios`)
+  - flutter_native_splash (from `.symlinks/plugins/flutter_native_splash/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - google_mobile_ads (from `.symlinks/plugins/google_mobile_ads/ios`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+  - pusher_websocket_flutter (from `.symlinks/plugins/pusher_websocket_flutter/ios`)
+  - shared_preferences_ios (from `.symlinks/plugins/shared_preferences_ios/ios`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+  - video_player_avfoundation (from `.symlinks/plugins/video_player_avfoundation/ios`)
+  - wakelock (from `.symlinks/plugins/wakelock/ios`)
+
+SPEC REPOS:
+  trunk:
+    - CryptoSwift
+    - Firebase
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCoreInternal
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - Google-Mobile-Ads-SDK
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleUserMessagingPlatform
+    - GoogleUtilities
+    - nanopb
+    - PromisesObjC
+    - PusherSwift
+    - ReachabilitySwift
+    - Starscream
+    - Toast
+
+EXTERNAL SOURCES:
+  firebase_core:
+    :path: ".symlinks/plugins/firebase_core/ios"
+  firebase_messaging:
+    :path: ".symlinks/plugins/firebase_messaging/ios"
+  Flutter:
+    :path: Flutter
+  flutter_local_notifications:
+    :path: ".symlinks/plugins/flutter_local_notifications/ios"
+  flutter_native_splash:
+    :path: ".symlinks/plugins/flutter_native_splash/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  google_mobile_ads:
+    :path: ".symlinks/plugins/google_mobile_ads/ios"
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+  pusher_websocket_flutter:
+    :path: ".symlinks/plugins/pusher_websocket_flutter/ios"
+  shared_preferences_ios:
+    :path: ".symlinks/plugins/shared_preferences_ios/ios"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+  video_player_avfoundation:
+    :path: ".symlinks/plugins/video_player_avfoundation/ios"
+  wakelock:
+    :path: ".symlinks/plugins/wakelock/ios"
+
+SPEC CHECKSUMS:
+  CryptoSwift: 769f58a9e89f64e8796c2e59ce5f002dc81a2438
+  Firebase: 800f16f07af493d98d017446a315c27af0552f41
+  firebase_core: 31872a49ffe0bf6f834e7044c7334e433536735a
+  firebase_messaging: 194c716231cf57b4c4c0712cc6775205e7152fa2
+  FirebaseCore: 25c0400b670fd1e2f2104349cd3b5dcce8d9418f
+  FirebaseCoreDiagnostics: 17cbf4e72b1dbd64bfdc33d4b1f07bce4f16f1d8
+  FirebaseCoreInternal: 50a8e39cae8abf72d5145d07ea34c3244f70862b
+  FirebaseInstallations: 41f811b530c41dd90973d0174381cdb3fcb5e839
+  FirebaseMessaging: 732623518591384f61c287e3d8f65294beb7ffb3
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  flutter_local_notifications: 0c0b1ae97e741e1521e4c1629a459d04b9aec743
+  flutter_native_splash: 52501b97d1c0a5f898d687f1646226c1f93c56ef
+  fluttertoast: 16fbe6039d06a763f3533670197d01fc73459037
+  Google-Mobile-Ads-SDK: 05e5d68bb42a61b2e5bef336a52789785605aa22
+  google_mobile_ads: 36eaaacc5c08ca2b9c4878232ab98152b11805cc
+  GoogleAppMeasurement: 4c19f031220c72464d460c9daa1fb5d1acce958e
+  GoogleDataTransport: 1c8145da7117bd68bbbed00cf304edb6a24de00f
+  GoogleUserMessagingPlatform: ab890ce5f6620f293a21b6bdd82e416a2c73aeca
+  GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
+  image_picker_ios: b786a5dcf033a8336a657191401bfdf12017dabb
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
+  pusher_websocket_flutter: ff9a11e48f24d2297bf0d143c99119106cd2d81b
+  PusherSwift: d15d6290be0b0b57fd9ac80b03661a6ba24623ec
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
+  shared_preferences_ios: 548a61f8053b9b8a49ac19c1ffbc8b92c50d68ad
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  url_launcher_ios: 839c58cdb4279282219f5e248c3321761ff3c4de
+  video_player_avfoundation: e489aac24ef5cf7af82702979ed16f2a5ef84cff
+  wakelock: d0fc7c864128eac40eba1617cb5264d9c940b46f
+
+PODFILE CHECKSUM: fe0e1ee7f3d1f7d00b11b474b62dd62134535aea
+
+COCOAPODS: 1.11.3
